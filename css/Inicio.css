@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+
+.background-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/Img_Login.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.logo-bank{
+    margin:auto;
+    margin-bottom: 10px;
+    width: 150px;
+    padding: 5px;
+}
+
+.card-container{
+    margin: 0 auto;
+    padding: 10px;
+    width: 28rem;
+    height: 30rem;
+    position: static;
+    border-radius: 30px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.glass-effect{
+    background-color: rgba(255, 255, 255, 0.364);
+    /* backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);*/
+}
+
+.container-input{
+    width: 18rem;
+}
+
+.container-btn{
+    display: grid;
+    justify-items: center;
+}
+
+.btn-primary{
+    background-color: rgba(60, 38, 97, 0.553);
+    border-color: rgba(60, 38, 97, 0.268);
+    margin: 20px;
+}
+
+.btn-primary:hover{
+    background-color: rgba(60, 38, 97, 0.268);
+    border-color: rgba(60, 38, 97, 0.844);
+    color: rgba(60, 38, 97);
+}
+.form-control{
+    background-color: rgba(60, 38, 97, 0.053);
+    border-color: black;
+    color: rgba(60, 38, 97, 0.946);
+    height: 45px;
+}
+
+.form-control:focus{
+    background-color: #efa09a;
+    border-color: rgba(60, 38, 97, 0.844);
+    color: rgba(255, 255, 255);
+}
+
+.text-info-sp{
+    text-align: center;
+}
